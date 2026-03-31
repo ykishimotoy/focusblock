@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- メニューバーアプリ: Dock アイコン非表示 -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <key>CFBundleName</key>
+    <string>FocusBlock</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>FocusBlock</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>com.focusblock.app</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+
+    <!-- ネットワーク通信の説明（プロキシサーバー用） -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>FocusBlockはローカルプロキシサーバーを使用してウェブサイトをフィルタリングします。</string>
+
+    <!-- Finderで表示されるアプリアイコン -->
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+
+    <!-- macOS 最低バージョン -->
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0</string>
+</dict>
+</plist>
